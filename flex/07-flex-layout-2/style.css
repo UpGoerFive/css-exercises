@@ -4,13 +4,18 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 ul {
   list-style: none;
-  padding: 16px;
+  padding: 0;
+  margin: 0;
 }
+
+/* li {
+  margin-bottom: 16px;
+} */
 
 a {
   font-size: 24px;
@@ -25,10 +30,11 @@ a {
   font-weight: 900;
   background: darkmagenta;
   color: white;
-  padding: 16px;
+  padding: 0 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .footer {
@@ -46,6 +52,7 @@ a {
   background: royalblue;
   box-sizing: border-box;
   flex: 1 0 auto;
+  padding: 16px;
 }
 
 .card {
@@ -54,14 +61,14 @@ a {
   border-radius: 4px;
   width: 200px;
   padding: 16px;
+  margin: 16px;
 }
 
 .deck {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .content {
